@@ -1,5 +1,6 @@
-.preview {
-  visibility: hidden;
+.hidden {
+/*   visibility: hidden; */
+  display: none;
 }
 
 #touch-area {
