@@ -1,0 +1,9 @@
+.hidden {
+  visibility: hidden;
+}
+
+#touch-area {
+  padding: 20px;
+  background-color: yellow;
+  cursor: pointer;
+}
