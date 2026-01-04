@@ -18,11 +18,11 @@ span.onclick = function() {
 };
 
 // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// }
+window.onclick = function(eventOne) {
+  if (eventOne.target == modalOne) {
+    modalOne.style.display = "none";
+  }
+};
 // ------------
 
 // Get the modal
@@ -47,11 +47,11 @@ span.onclick = function() {
 // ---------------
 
 // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(eventTwo) {
-//   if (eventTwo.target == modalTwo) {
-//     modalTwo.style.display = "none";
-//   }
-// }
+window.onclick = function(eventTwo) {
+  if (eventTwo.target == modalTwo) {
+    modalTwo.style.display = "none";
+  }
+};
 // ------------
 
 
@@ -59,7 +59,7 @@ span.onclick = function() {
   // function closeAllModals() {
   //   document.querySelectorAll('.modal').forEach(modal => {
   //     modal.classList.display('none');
-  //         // modal.classList.style.display('none');
+  //         modal.classList.style.display('none');
   //   });
   // }
 
