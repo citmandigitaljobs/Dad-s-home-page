@@ -24,6 +24,13 @@ p {
   font-family: "Trebuchet MS", sans-serif;
 }
 
+p2 {
+  /*       font-family: "Times New Roman", Times, serif; */
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
 /* MOBILE RESPONSIVENESS TABLET PORTRAIT */
 @media screen and (max-width: 768px) {
  .topic {
